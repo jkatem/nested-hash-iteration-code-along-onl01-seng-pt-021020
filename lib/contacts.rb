@@ -9,12 +9,12 @@ require 'pry'
   #   },
   #   "Freddy Mercury" => {
   #     name: "Freddy",
-  #     email: "freddy@mercury.com",
+  #     email: "freddy@mercury.com"
   #     favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
   #   }
   # }
 
 def remove_strawberry(contacts)
-  contact.each do |person, contact_details_hash|
+  contacts.each do |person, contact_details_hash|
     binding pry
 end
